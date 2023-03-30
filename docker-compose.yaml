@@ -30,7 +30,7 @@ services:
     image: datadog/agent:latest
     environment:
       ## GLOBALS
-      - DD_API_KEY=677214c87c4fd185d92e2358a2ac5049
+      - DD_API_KEY=${DD_API_KEY}
       - DD_SITE=us5.datadoghq.com
       - DD_HOSTNAME=localpro
       - DD_TAGS=env:local owner:petems
